@@ -5,7 +5,7 @@
                 <h2>Illia Borusov</h2>
                 <div class="name_spec">
                     Software Developer from Kharkiv
-                    <img src="@/assets/image/ua.png" alt="">
+                    <img src="@/assets/image/ua_flag.gif" alt="">
                 </div>
             </div>
         </div>
