@@ -1,6 +1,5 @@
 <template>
-<div class="header" style="background: url('./src/assets/image/First_block.png');     background-repeat: no-repeat;
-    background-size: cover;">
+<div class="header" :style="cssProps">
         <div class="content">
             <div class="name">
                 <h2>Illia Borusov</h2>
@@ -22,9 +21,19 @@
 <script>
     import 'bootstrap/dist/css/bootstrap.css';
     import 'bootstrap/dist/js/bootstrap.bundle.min';
+    import FirstBlockImage from '@/assets/image/First_block.png'; // Import the image using import
+
     export default {
         name: 'AppHeader', // Изменили имя компонента
-        // ...
+        data() {
+        return {
+            cssProps: {
+                backgroundImage: `url(${FirstBlockImage})` // Use the imported image
+
+            }
+        }
+        }
+
     }
 </script>
 
