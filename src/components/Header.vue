@@ -1,5 +1,6 @@
 <template>
-    <div class="header">
+<div class="header" style="background: url('./src/assets/image/First_block.png');     background-repeat: no-repeat;
+    background-size: cover;">
         <div class="content">
             <div class="name">
                 <h2>Illia Borusov</h2>
