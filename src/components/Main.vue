@@ -3,13 +3,13 @@
         <div class="d-flex justify-content-center align-items-center gap-2">
             <div class="col text-main">
                 <h3>ABOUT ME</h3>
-                <p>Hi, I'm a software programmer with a passion for cryptography, web development, and hardware work. My passion is creating secure and interactive solutions for the digital world.</p>
+                <p class="mt-3">Hi, I'm a software programmer with a passion for cryptography, web development, and hardware work. My passion is creating secure and interactive solutions for the digital world.</p>
                 <div class="contact">
                     <ul>
-                        <li><a href="https://github.com/borisovvilyaa"><i class="bi bi-github"></i></a></li>
-                        <li><a href="mailto:borisovvilyaa@gmail.com"><i class="bi bi-envelope"></i></a></li>
-                        <li><a href="#"><i class="bi bi-telegram"></i></a></li>
-                        <li><a href=""><i class="bi bi-linkedin"></i></a></li>
+                        <li><a href="https://github.com/borisovvilyaa" target="_blank"><i class="bi bi-github"></i></a></li>
+                        <li><a href="mailto:borisovvilyaa@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a></li>
+                        <li><a href="https://t.me/illiaborusov" target="_blank"><i class="bi bi-telegram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/illiaborusov/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
