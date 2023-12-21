@@ -1,7 +1,10 @@
-// import './assets/js/main.js'; 
 import { createApp } from 'vue'
 import App from './App.vue'
-// import Bootstrap from Bootstrap
-import './assets/css/main.css'; // Подключение глобальных стилей
+import router from './router' // Укажите правильный путь к вашему файлу маршрутизации
+import './assets/css/main.css'
 
-createApp(App).mount('#app');
+const app = createApp(App)
+
+app.use(router) // Подключите маршрутизацию
+
+app.mount('#app')
