@@ -1,5 +1,7 @@
+<!-- App.vue -->
 <template>
   <div id="app" @click="handleOutsideClick">
+    <Preloader v-if="isLoading" />
     <button class="menu-toggle" :class="{ open: isMenuOpen }" @click="toggleMenu">
       <span></span>
       <span></span>
@@ -31,25 +33,46 @@
 </template>
 
 <script>
+import Preloader from './components/Preloader.vue';
+
 export default {
   name: 'App',
   data() {
     return {
-      isMenuOpen: false
+      isMenuOpen: false,
+      isLoading: false
+    };
+  },
+  watch: {
+    // eslint-disable-next-line no-unused-vars
+    $route(to, from) {
+      // Set isLoading to true when a route is changing
+      this.isLoading = true;
+
+      // Simulate a delay (you can replace this with your actual data fetching logic)
+      setTimeout(() => {
+        this.isLoading = false;
+      },1000); // Change the timeout duration as needed
     }
   },
   methods: {
     toggleMenu() {
-      this.isMenuOpen = !this.isMenuOpen
+      this.isMenuOpen = !this.isMenuOpen;
     },
     closeMenu() {
-      this.isMenuOpen = false
+      this.isMenuOpen = false;
     },
     isRouteActive(route) {
-      return this.$route.path === route || this.$route.fullPath === route
+      return this.$route.path === route || this.$route.fullPath === route;
+    },
+    handleOutsideClick() {
+      // Handle outside click logic
     }
+  },
+  components: {
+    Preloader
   }
-}
+};
 </script>
 
 <style scoped>
