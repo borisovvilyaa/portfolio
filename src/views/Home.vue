@@ -1,22 +1,29 @@
-// eslint-disable-next-line vue/multi-word-component-names
 <template>
-  <header>
-    <div class="wrapper">
-      <Header />
-    </div>
-  </header>
-
-  <main>
-    <Main />
-  </main>
+  <div>
+    <Header />
+    
+    <main class="main">
+      <Main />
+    </main>
+  </div>
 </template>
+
+<style>
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+
 <script>
-import Header from '@/components/Header.vue'
-import Main from '@/components/Main.vue'
+import Header from '@/components/Header.vue';
+import Main from '@/components/Main.vue';
+
 export default {
   components: {
     Header,
     Main
   }
-}
+};
 </script>

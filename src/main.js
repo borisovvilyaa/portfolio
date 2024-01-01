@@ -1,10 +1,14 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router' // Укажите правильный путь к вашему файлу маршрутизации
-import './assets/css/main.css'
+// Importing necessary modules
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router'; // Specify the correct path to your routing file
+import './assets/css/main.css';
 
-const app = createApp(App)
+// Creating a Vue app instance
+const app = createApp(App);
 
-app.use(router) // Подключите маршрутизацию
+// Using the router in the app
+app.use(router);
 
-app.mount('#app')
+// Mounting the app on the specified element with ID 'app'
+app.mount('#app');

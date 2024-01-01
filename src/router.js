@@ -1,9 +1,11 @@
 // router.js
+
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/views/Home.vue'
 import Portfolio from '@/views/Portfolio.vue'
 import Education from '@/views/Education.vue'
 
+// Creating a router instance
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -11,7 +13,7 @@ const router = createRouter({
       path: '/home',
       name: 'Home',
       component: Home,
-      alias: '/' // Используем alias для отображения /home на /
+      alias: '/'
     },
     {
       path: '/projects',

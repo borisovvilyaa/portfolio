@@ -7,15 +7,14 @@
 
 <script>
 export default {
+  // eslint-disable-next-line vue/multi-word-component-names
   name: 'Preloader',
   methods: {
     hidePreloader() {
-      // Добавляем класс, который запускает анимацию
       document.querySelector('.preloader').classList.add('loading-done');
     }
   },
   mounted() {
-    // Пример: Скрываем прелоадер через 2 секунды после монтажа компонента
     setTimeout(() => {
       this.hidePreloader();
     }, 500);
@@ -30,10 +29,9 @@ export default {
 
   z-index: 1000;
   opacity: 1;
-  transition: opacity 1s; /* Добавленный переход для свойства opacity */
+  transition: opacity 1s; 
 }
 
-/* Добавленные стили для анимации */
 .preloader.loading-done {
   opacity: 0;
 }
