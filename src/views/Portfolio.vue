@@ -1,6 +1,5 @@
 <template>
   <Project />
-  <Skill />
 </template>
 
 <script>

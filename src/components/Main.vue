@@ -18,11 +18,14 @@
   <div class="container-sm main">
     <div class="d-flex justify-content-center align-items-center gap-2">
       <div class="col text-main">
-        <h3>ABOUT ME</h3>
+        <h3>Borusov Illia</h3>
         <p class="mt-3">
           Hi, I'm a software programmer with a passion for cryptography, web development, and
           hardware work. My passion is creating secure and interactive solutions for the digital
           world.
+        </p>
+        <p class="mt-3">
+          Kharkiv, Ukraine <img src="@/assets/image/ua_flag.gif" alt="">
         </p>
         <div class="contact">
           <ul>

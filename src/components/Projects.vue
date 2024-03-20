@@ -4,6 +4,78 @@
       <h3>Project’s</h3>
     </div>
     <div class="row">
+      <div class="col-md-6 col-sm-12 mb-4">
+        <div class="text-project-name">
+          <h3>
+            <a href="https://github.com/borisovvilyaa/CryptoGuard"
+              ><img src="@/assets/image/project/crypto.png" alt="" />CryptoGuard</a
+            >
+          </h3>
+          <!-- Project name with a link and an image -->
+          <div class="tech">
+            <div class="tech-items">
+              <img src="@/assets/image/tech/Python.png" alt="" />
+              <!-- Technology icon -->
+            </div>
+          </div>
+          <p>
+            <span class="fw-bold">"CryptoGuard"</span> - A Python-based app designed for securing
+            personal information using robust cryptographic techniques. It offers essential
+            encryption and decryption tools for safeguarding crucial files and messages.
+          </p>
+          <!-- Project description -->
+          <p class="fw-bold">Key Features:</p>
+          <!-- Key features of the project listed as bullet points -->
+          <ol>
+            <li>
+              File Encryption: Protect sensitive documents with advanced encryption algorithms like
+              AES. Users can create encrypted containers for secure file storage and management.
+            </li>
+            <li>
+              Message Encryption: "CryptoGuard" features a secure message encryption and decryption
+              module for protecting sensitive communications.
+            </li>
+            <li>
+              Password Generator: Generate strong and unique passwords effortlessly. Enhance online
+              account security with complex, hard-to-crack passwords.
+            </li>
+            <li>
+              Password Storage: Safely store passwords in an encrypted database accessible only
+              through a master password or biometric authentication methods like fingerprint
+              scanning or facial recognition.
+            </li>
+          </ol>
+        </div>
+      </div>
+        <!-- Second Project Section -->
+        <div class="col-md-6 col-sm-12 mb-4">
+        <div class="text-project-name">
+          <h3>
+            <a href="https://github.com/borisovvilyaa/Survival-Odyssey/tree/front-end"
+              ><img src="@/assets/image/project/so.png" alt="" width="100">Survival Odyssey</a
+            >
+          </h3>
+          <!-- Project name with a link and an image -->
+          <div class="tech">
+            <div class="tech-items">
+              <!-- Technology icons -->
+              <img src="@/assets/image/tech/Vue.png" alt="" />
+              <img src="@/assets/image/tech/Golang.png" alt="" />
+              <img src="@/assets/image/tech/NodeJS.png" alt="" />
+              <img src="@/assets/image/tech/firebase.png" alt="" />
+            </div>
+          </div>
+          <p> <span class="fw-bold">Survival Odyssey</span> is responsible for crafting and maintaining a dynamic gaming platform featuring essential components such as a constantly updated news page, personalized user profiles, and an intricate friends' system</p>
+  
+          <ol>
+            <li>Frontend: Vue.js</li>
+            <li>Backend: Node.js</li>
+            <li>Database: Firebase, Postgres</li>
+            <li>Additional Tools: JavaScript/TypeScript, HTML/CSS, RESTful API, Git/GitHub</li>
+          </ol>
+        </div>
+        <a href="https://www.youtube.com/watch?si=IomG5pC_rWdP2wmM&v=I3sRjsP5St0&feature=youtu.be">Demo video</a>
+      </div>
       <!-- First Project Section -->
       <div class="col-md-6 col-sm-12 mb-4">
         <div class="text-project-name">
@@ -66,52 +138,11 @@
             </li>
           </ol>
         </div>
+        <a href="https://www.youtube.com/watch?si=koyvxYxzqhsZBBCp&v=6TRhg9BZPEs&feature=youtu.be">Demo video</a>
       </div>
 
       <!-- Second Project Section -->
-      <div class="col-md-6 col-sm-12 mb-4">
-        <div class="text-project-name">
-          <h3>
-            <a href="https://github.com/borisovvilyaa/CryptoGuard"
-              ><img src="@/assets/image/project/crypto.png" alt="" />CryptoGuard</a
-            >
-          </h3>
-          <!-- Project name with a link and an image -->
-          <div class="tech">
-            <div class="tech-items">
-              <img src="@/assets/image/tech/Python.png" alt="" />
-              <!-- Technology icon -->
-            </div>
-          </div>
-          <p>
-            <span class="fw-bold">"CryptoGuard"</span> - A Python-based app designed for securing
-            personal information using robust cryptographic techniques. It offers essential
-            encryption and decryption tools for safeguarding crucial files and messages.
-          </p>
-          <!-- Project description -->
-          <p class="fw-bold">Key Features:</p>
-          <!-- Key features of the project listed as bullet points -->
-          <ol>
-            <li>
-              File Encryption: Protect sensitive documents with advanced encryption algorithms like
-              AES. Users can create encrypted containers for secure file storage and management.
-            </li>
-            <li>
-              Message Encryption: "CryptoGuard" features a secure message encryption and decryption
-              module for protecting sensitive communications.
-            </li>
-            <li>
-              Password Generator: Generate strong and unique passwords effortlessly. Enhance online
-              account security with complex, hard-to-crack passwords.
-            </li>
-            <li>
-              Password Storage: Safely store passwords in an encrypted database accessible only
-              through a master password or biometric authentication methods like fingerprint
-              scanning or facial recognition.
-            </li>
-          </ol>
-        </div>
-      </div>
+    
     </div>
   </div>
 </template>
